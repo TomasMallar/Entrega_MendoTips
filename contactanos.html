@@ -15,34 +15,37 @@
      <link rel="stylesheet" href="style.css">   
 
 <!--Boostrap-->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
    
 <title>Contáctanos</title>
 </head>
 <body>
     <section id="portada">
         <!-- id imagen de fondo -->
+        <h1>MENDOTIPS</h1>
     </section>
 
     <a class="contac" href="index.html">Volver a Home</a>
         <section id="Contactanos" class="contenedor">
-            <h2 class="con-tit">Contáctanos</h2>
-            <!--Acá nos pueden dejar una reseña y completar algunos datos para poder contactarnos con ellos-->
-            <form class="cont">
-            <p>Nombre:<input type="text" name="Nombre"/> </p>
-            <p>Apellido:<input type="text" name="Apellido"/></p> 
-            <p>E-mail:<input type="email"name="E-mail"/></p>
-            <label for="EstadoCivil">Estado Civil</label>  
-            <select name="EstadoCivil" id="EstadoCivil">
-                <option>Soltero/a</option>
-                <option>Casado/a</option>
-                <option>Divorciado/a</option>
-            </select>
-            <p>Desea recibir el Newsletter <input type="checkbox" name="Desea recibir el Newsletter"></p>
-            <p>Comentarios<input type="text"name="Comentarios"/></p>
-            <p><input type="reset" value="Limpiar Formulario"/></p>
-            <p><input type="submit" value="Enviar Formulario"/></p>
-            </form>
+            <div class="con-form">
+                <h2>Contactanos</h2>
+                <!--Acá nos pueden dejar una reseña y completar algunos datos para poder contactarnos con ellos-->
+                <form action="">
+                <p>Nombre:<input type="text" name="Nombre" class="barra"/> </p>
+                <p>Apellido:<input type="text" name="Apellido"/></p> 
+                <p class="block">E-mail:<input type="email"name="E-mail"/></p>
+                <label for="EstadoCivil">Estado Civil:</label>  
+                <select name="EstadoCivil" id="EstadoCivil">
+                    <option>Soltero/a</option>
+                    <option>Casado/a</option>
+                    <option>Divorciado/a</option>
+                </select>
+                <p class="block">Desea recibir el Newsletter <input type="checkbox" name="Desea recibir el Newsletter"></p>
+                <p class="block">Comentarios<input type="text"name="Comentarios"/></p>
+                <button type="reset">Limpiar Formulario</button>
+                <button type="submit">Enviar Formulario</button>
+                </form>
+            </div>
         </section>
 
         <!--  Footer  -->
