@@ -148,11 +148,6 @@ tablet-landscape: min:1024px; */
     padding: 1rem 3rem;
 }}
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 100px) and (max-device-width : 767px) { article {
-    padding: 1rem 3rem;
-}}
-
 @media screen and (min-witdh: 700px){
     
     @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
